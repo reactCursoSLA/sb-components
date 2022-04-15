@@ -57,3 +57,12 @@ CustomFontColor.args = {
   size : 'normal',
   fontColor: '#5517ac',
 };
+
+export const CustomBackgroundColor = Template.bind({});
+
+CustomBackgroundColor.args = {
+  label: 'MyComponent',
+  size : 'normal',
+  fontColor: '#eeeeee',
+  backgroundColor: '#000000',
+};

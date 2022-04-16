@@ -11,7 +11,7 @@ var __assign = (this && this.__assign) || function () {
     return __assign.apply(this, arguments);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CustomBackgroundColor = exports.CustomFontColor = exports.Tertiary = exports.Secondary = exports.AllCaps = exports.Basic = void 0;
+exports.test = exports.CustomBackgroundColor = exports.CustomFontColor = exports.Tertiary = exports.Secondary = exports.AllCaps = exports.Basic = void 0;
 var jsx_runtime_1 = require("react/jsx-runtime");
 var MyLabel_1 = require("../../components/MyLabel");
 exports.default = {
@@ -55,6 +55,13 @@ exports.CustomFontColor.args = {
 };
 exports.CustomBackgroundColor = Template.bind({});
 exports.CustomBackgroundColor.args = {
+    label: 'MyComponent',
+    size: 'normal',
+    fontColor: '#eeeeee',
+    backgroundColor: '#000000',
+};
+exports.test = Template.bind({});
+exports.test.args = {
     label: 'MyComponent',
     size: 'normal',
     fontColor: '#eeeeee',

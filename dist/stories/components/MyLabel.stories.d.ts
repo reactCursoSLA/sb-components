@@ -7,3 +7,4 @@ export declare const Secondary: ComponentStory<({ label, size, allCaps, color, f
 export declare const Tertiary: ComponentStory<({ label, size, allCaps, color, fontColor, backgroundColor, }: import("../../components/MyLabel").MyLabelProps) => JSX.Element>;
 export declare const CustomFontColor: ComponentStory<({ label, size, allCaps, color, fontColor, backgroundColor, }: import("../../components/MyLabel").MyLabelProps) => JSX.Element>;
 export declare const CustomBackgroundColor: ComponentStory<({ label, size, allCaps, color, fontColor, backgroundColor, }: import("../../components/MyLabel").MyLabelProps) => JSX.Element>;
+export declare const test: ComponentStory<({ label, size, allCaps, color, fontColor, backgroundColor, }: import("../../components/MyLabel").MyLabelProps) => JSX.Element>;

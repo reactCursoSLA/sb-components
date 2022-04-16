@@ -67,6 +67,8 @@
     "@storybook/react": "^6.4.21",
     "@storybook/testing-library": "^0.0.9",
     "babel-loader": "^8.2.4",
-    "chromatic": "^6.5.4"
+    "chromatic": "^6.5.4",
+    "copyfiles": "^2.4.1",
+    "rimraf": "^3.0.2"
   }
 }
